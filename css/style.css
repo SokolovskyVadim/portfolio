@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #2B2B2B;
+    box-sizing: border-box;
+    font-family: 'Radio Canada', sans-serif;
+}
+header {
+    background-color: #0e0e0e;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.main-title {
+    text-align: center;
+    font-size: 48px;
+    color: #ffffff;
+}
+.links-to-sites__titles {
+    color: #B2E500;
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+.links-to-sites__row a,
+.links-to-sites__row a:visited {
+    color: #ffffff;
+    display: inline-block;
+    margin: 15px;
+    transition: 0.5s;
+}
+.links-to-sites__row a:hover {
+    color: #B2E500;
+}
+
+.links-to-sites__row {
+    margin-bottom: 30px;
+}
